@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# uv
+.uv/
+uv.lock
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+.eggs/
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.pytest_cache/
+pytest.ini
+
+# Jupyter / Marimo
+.ipynb_checkpoints/
+*.ipynb
+notebooks/**/__marimo__/session/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Database / vector store data
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Data files (potentially large)
+data/
+*.csv
+*.parquet
+*.jsonl
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# API keys / credentials
+*.pem
+*.key
+secrets/
+credentials/
